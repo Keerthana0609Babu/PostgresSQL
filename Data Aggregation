@@ -1,0 +1,14 @@
+-- select * from student
+-- select avg ("AGE") from student
+-- select count("NAME") from student
+-- select max("AGE") as "MAXIMUM AGE" from student
+-- select min("AGE") as "MINIMUM AGE" from student
+-- select sum ("AGE") from student
+-- select "NAME", "AGE" from student where "AGE" = (select min("AGE") from student)
+-- select count ("NAME") from student
+-- select count (distinct("AGE")) from student
+-- select count ( * ) as NAME,
+-- max("AGE")as "maximum age",
+-- min("AGE") as "minimum age",
+-- avg("AGE") as "average age"
+-- from student

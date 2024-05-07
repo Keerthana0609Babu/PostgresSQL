@@ -1,0 +1,12 @@
+-- create table Employees
+-- (
+-- 	"empid" char(50),
+--  "empname" char(50),
+--  "dept" char(50),
+--  "salary" integer
+-- 	)
+-- insert into Employees 
+-- values ('0002', 'Harine', 'IT', '50000'),('0003', 'Jeevasree', 'ECE', '45000'),
+-- select * from Employees
+-- delete from Employees
+-- where "dept" ='Cit' 

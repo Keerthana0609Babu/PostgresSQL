@@ -1,0 +1,9 @@
+-- select * from student
+-- select "NAME", "JOINING DATE" from student where "JOINING DATE"= '2022-09-03'
+-- select "NAME", "JOINING DATE" from student where "JOINING DATE"<'2022-09-03'
+-- select "NAME", "JOINING DATE" from student where "JOINING DATE"> '2022-09-03'
+-- select "NAME", "JOINING DATE" from student where "JOINING DATE" between '2022-09-01' and '2022-09-30'
+-- select "NAME", "JOINING DATE" FROM STUDENT WHERE extract(year from "END DATE") = '2022'
+-- select "NAME", "JOINING DATE" FROM STUDENT WHERE extract(MONTH from "END DATE")= 7
+
+

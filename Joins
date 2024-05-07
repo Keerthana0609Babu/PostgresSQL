@@ -1,0 +1,21 @@
+-- select * from basics 
+-- select * from ratings limit 100
+-- select "primary title", "averageRating", "numVotes"
+-- from basics,ratings 
+-- where basics."tconst" = ratings."tconst"
+-- limit 100
+-- select "primary title", "averageRating", "numVotes"
+-- from basics
+-- left join ratings 
+-- on basics."tconst" = ratings."tconst"
+-- limit 10
+-- select "primary title", "averageRating", "numVotes"
+-- from basics
+-- right join ratings 
+-- on basics."tconst" = ratings."tconst"
+-- limit 10
+-- select "primary title", "averageRating", "numVotes"
+-- from basics
+-- full outer join ratings 
+-- on basics."tconst" = ratings."tconst"
+-- limit 10

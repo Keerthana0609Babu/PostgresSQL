@@ -1,0 +1,7 @@
+-- select "car", "cylinders", "origin"from cars 
+-- where "cylinders" in (select distinct "cylinders" from cars 
+-- 	where "origin"= 'Japan') 
+-- order by "cylinders" desc
+-- select "car", "cylinders", "weight", "origin" from cars where "cylinders" 
+-- 	in(select distinct "cylinders" where "weight"
+-- 	in (select max("weight") from cars where "origin" = 'US')) 

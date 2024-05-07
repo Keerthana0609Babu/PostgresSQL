@@ -1,0 +1,5 @@
+--select "car", "mpg" from cars
+ -- select * from cars
+ -- select "car", "mpg", "displacement", "horsepower", "weight" from cars
+ -- select distinct "origin" from cars
+-- select "car" from cars limit 2

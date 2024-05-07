@@ -1,0 +1,10 @@
+-- select * from cars
+-- select "origin", count (*) from cars group by "origin"
+ -- select "car" , count (*) from cars group by "car" having count (*) = 1
+-- select "car", count (*) from cars where "origin" = 'US' group by "car" having count (*) = 1
+ select "cylinders", count (*) as "count" 
+ from cars group by "cylinders" 
+ having count (*)  > '8'
+ order by "count" desc
+
+

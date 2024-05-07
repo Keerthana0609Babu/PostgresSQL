@@ -1,0 +1,16 @@
+-- select "car" from cars order by "car" asc 
+-- select "car", "mpg", "cylinders" from cars order by "cylinders" , "mpg"
+-- select "car", "mpg", "cylinders" from cars order by  2,3
+-- select "car", "mpg", "cylinders" from cars order by "mpg"desc
+-- select "car", "mpg" from cars where "mpg"= '17'
+-- select "car", "mpg", "cylinders" from cars where "cylinders" = '6' and "mpg" = '17'
+-- select "car", "mpg", "cylinders" from cars where "mpg" <> '15'
+--select "car", "mpg", "cylinders" from cars where "mpg"= '17' or "mpg" = '15'
+-- select "car", "mpg", "cylinders" from cars where "mpg"= '17' or "mpg" = '15' and "cylinders" = '8'
+-- select "car", "mpg", "cylinders" from cars where "cylinders" < '4'
+-- select "car", "mpg", "cylinders" from cars where "cylinders" between '3' and '5' 
+-- select "car", "mpg", "horsepower" from cars where "horsepower" isnull
+-- select "car", "mpg" from cars where "mpg" in ('15','17','18') order by "mpg"
+ -- select "car", "mpg", "cylinders" from cars where not "cylinders" = '4'
+-- select "car", "mpg", "cylinders" from cars where "car" like 'Chevrolet%'
+-- select "car", "mpg", "cylinders" from cars where "car" like '%Skylark _______'
